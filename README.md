@@ -1,650 +1,84 @@
+### ast
+- [parso](https://parso.readthedocs.io/en/latest/): Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions). Parso is also able to list multiple syntax errors in your python file. 
+- [libcst](https://libcst.readthedocs.io/en/latest/): LibCST parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It’s useful for building automated refactoring (codemod) applications and linters. 
+- [awpa](https://github.com/pyga/awpa): A working Python AST 
 
-__future__:
+### asyncio
+- [trio](https://trio.readthedocs.io/en/stable/): The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python. 
+- [twisted](https://twistedmatrix.com/trac/): Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license. 
 
-__main__:
+### concurrent.futures
+- [dask](https://dask.readthedocs.io/en/latest/): Dask is a flexible library for parallel computing in Python. 
 
-_dummy_thread:
+### configparser
+- [toml](https://pypi.org/project/toml/): A Python library for parsing and creating TOML. 
 
-_thread:
+### ctypes
+- [cffi](https://cffi.readthedocs.io/en/latest/): C Foreign Function Interface for Python. 
 
-abc: zope.interface
+### curses
+- [urwid](http://urwid.org/): Console user interface library for Python 
+- [prompt_toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit/): prompt_toolkit is a library for building powerful interactive command line applications in Python. 
 
-aifc:
+### dataclasses
+- [attrs](http://www.attrs.org/en/stable/): attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods). 
 
-argparse: click
+### datetime
+- [pendulum](https://pendulum.eustace.io): Pendulum is a Python package to ease datetimes manipulation. 
 
-array: numpy
+### doctest
+- [pytest-sphinx](https://github.com/thisch/pytest-sphinx): A doctest plugin for pytest, which understands the sphinx-specific directives from doctest-sphinx. 
 
-ast: parso, libcst awpa
+### getopt
+- [click](https://click.palletsprojects.com/en/7.x/): Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. 
 
-asynchat:
+### getpass
+- [click](https://click.palletsprojects.com/en/7.x/): Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. 
+- [prompt_toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit/): prompt_toolkit is a library for building powerful interactive command line applications in Python. 
 
-asyncio: trio, twisted
+### glob
+- [pathlib](https://docs.python.org/3/library/pathlib.html): This module offers classes representing filesystem paths with semantics appropriate for different operating systems. 
 
-asyncore:
+### logging
+- [eliot](https://eliot.readthedocs.io/en/stable/): Eliot: Logging that tells you why it happened 
+- [structlog](http://www.structlog.org/en/stable/): structlog makes logging in Python less painful and more powerful by adding structure to your log entries. 
 
-atexit:
+### optparse
+- [click](https://click.palletsprojects.com/en/7.x/): Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. 
 
-audioop:
+### os.path
+- [pathlib](https://docs.python.org/3/library/pathlib.html): This module offers classes representing filesystem paths with semantics appropriate for different operating systems. 
 
-base64:
+### pdb
+- [pudb](https://github.com/inducer/pudb): PuDB is a full-screen, console-based visual debugger for Python. 
 
-bdb:
+### re
+- [regex](https://pypi.org/project/regex/): This regex implementation is backwards-compatible with the standard ‘re’ module, but offers additional functionality. 
 
-binascii:
+### readline
+- [prompt_toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit/): prompt_toolkit is a library for building powerful interactive command line applications in Python. 
 
-binhex:
+### sched
+- [apscheduler](https://apscheduler.readthedocs.io/en/latest/): Advanced Python Scheduler (APScheduler) is a Python library that lets you schedule your Python code to be executed later, either just once or periodically. 
 
-bisect:
+### select
+- [trio](https://trio.readthedocs.io/en/stable/): The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python. 
+- [twisted](https://twistedmatrix.com/trac/): Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license. 
 
-builtins:
+### sqlite3
+- [sqlalchemy](https://www.sqlalchemy.org/): SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL. 
 
-bz2:
+### statistics
+- [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html): This module contains a large number of probability distributions as well as a growing library of statistical functions. 
 
-cProfile:
+### unittest
+- [pytest](https://pytest.org/en/latest/): The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries. 
 
-calendar:
+### urllib.request
+- [requests](https://python-requests.org/en/master/): Requests is an elegant and simple HTTP library for Python, built for human beings. 
 
-cgi:
+### xml
+- [lxml](https://pypi.org/project/lxml/): The most feature-rich and easy-to-use library for processing XML and HTML in the Python language. 
 
-cgitb:
-
-chunk:
-
-cmath:
-
-cmd:
-
-code:
-
-codecs:
-
-codeop:
-
-collections:
-
-collections.abc:
-
-colorsys:
-
-compileall:
-
-concurrent.futures: dask
-
-configparser: toml
-
-contextlib:
-
-contextvars:
-
-copy:
-
-copyreg:
-
-crypt:
-
-csv:
-
-ctypes: cffi
-
-curses: urwid, prompt_toolkit
-
-curses.ascii:
-
-curses.panel:
-
-curses.textpad:
-
-dataclasses: attrs
-
-datetime: pendulum
-
-dbm:
-
-dbm.dumb:
-
-dbm.gnu:
-
-dbm.ndbm:
-
-decimal:
-
-difflib:
-
-dis:
-
-distutils:
-
-distutils.archive_util:
-
-distutils.bcppcompiler:
-
-distutils.ccompiler:
-
-distutils.cmd:
-
-distutils.command:
-
-distutils.command.bdist:
-
-distutils.command.bdist_dumb:
-
-distutils.command.bdist_msi:
-
-distutils.command.bdist_packager:
-
-distutils.command.bdist_rpm:
-
-distutils.command.bdist_wininst:
-
-distutils.command.build:
-
-distutils.command.build_clib:
-
-distutils.command.build_ext:
-
-distutils.command.build_py:
-
-distutils.command.build_scripts:
-
-distutils.command.check:
-
-distutils.command.clean:
-
-distutils.command.config:
-
-distutils.command.install:
-
-distutils.command.install_data:
-
-distutils.command.install_headers:
-
-distutils.command.install_lib:
-
-distutils.command.install_scripts:
-
-distutils.command.register:
-
-distutils.command.sdist:
-
-distutils.core:
-
-distutils.cygwinccompiler:
-
-distutils.debug:
-
-distutils.dep_util:
-
-distutils.dir_util:
-
-distutils.dist:
-
-distutils.errors:
-
-distutils.extension:
-
-distutils.fancy_getopt:
-
-distutils.file_util:
-
-distutils.filelist:
-
-distutils.log:
-
-distutils.msvccompiler:
-
-distutils.spawn:
-
-distutils.sysconfig:
-
-distutils.text_file:
-
-distutils.unixccompiler:
-
-distutils.util:
-
-distutils.version:
-
-doctest: https://github.com/thisch/pytest-sphinx
-
-dummy_threading:
-
-email:
-
-email.charset:
-
-email.contentmanager:
-
-email.encoders:
-
-email.errors:
-
-email.generator:
-
-email.header:
-
-email.headerregistry:
-
-email.iterators:
-
-email.message:
-
-email.mime:
-
-email.parser:
-
-email.policy:
-
-email.utils:
-
-encodings.idna:
-
-encodings.mbcs:
-
-encodings.utf_8_sig:
-
-ensurepip:
-
-enum:
-
-errno:
-
-faulthandler:
-
-fcntl:
-
-filecmp:
-
-fileinput:
-
-fnmatch:
-
-formatter:
-
-fractions:
-
-ftplib:
-
-functools:
-
-gc:
-
-getopt: click
-
-getpass: click, prompt_toolkit
-
-gettext:
-
-glob: pathlib
-
-grp:
-
-gzip:
-
-hashlib:
-
-heapq:
-
-hmac:
-
-html:
-
-html.entities:
-
-html.parser:
-
-http:
-
-http.client:
-
-http.cookiejar:
-
-http.cookies:
-
-http.server:
-
-imaplib:
-
-imghdr:
-
-imp:
-
-importlib:
-
-importlib.abc:
-
-importlib.machinery:
-
-importlib.resources:
-
-importlib.util:
-
-inspect:
-
-io:
-
-ipaddress:
-
-itertools:
-
-json:
-
-json.tool:
-
-keyword:
-
-lib2to3:
-
-linecache:
-
-locale:
-
-logging: eliot, structlog
-
-logging.config:
-
-logging.handlers:
-
-lzma:
-
-macpath:
-
-mailbox:
-
-mailcap:
-
-marshal:
-
-math:
-
-mimetypes:
-
-mmap:
-
-modulefinder:
-
-msilib:
-
-msvcrt:
-
-multiprocessing:
-
-multiprocessing.connection:
-
-multiprocessing.dummy:
-
-multiprocessing.managers:
-
-multiprocessing.pool:
-
-multiprocessing.sharedctypes:
-
-netrc:
-
-nis:
-
-nntplib:
-
-numbers:
-
-operator:
-
-optparse: click
-
-os:
-
-os.path: pathlib
-
-ossaudiodev:
-
-parser:
-
-pathlib:
-
-pdb: pudb
-
-pickle:
-
-pickletools:
-
-pipes:
-
-pkgutil:
-
-platform:
-
-plistlib:
-
-poplib:
-
-posix:
-
-pprint:
-
-profile:
-
-pstats:
-
-pty:
-
-pwd:
-
-py_compile:
-
-pyclbr:
-
-pydoc:
-
-queue:
-
-quopri:
-
-random:
-
-re: regex
-
-readline: prompt_toolkit
-
-reprlib:
-
-resource:
-
-rlcompleter:
-
-runpy:
-
-sched: apscheduler
-
-secrets:
-
-select: trio, twisted
-
-selectors:
-
-shelve:
-
-shlex:
-
-shutil:
-
-signal:
-
-site:
-
-smtpd:
-
-smtplib:
-
-sndhdr:
-
-socket:
-
-socketserver:
-
-spwd:
-
-sqlite3: sqlalchemy core
-
-ssl:
-
-stat:
-
-statistics: scipy.stats
-
-string:
-
-stringprep:
-
-struct:
-
-subprocess:
-
-sunau:
-
-symbol:
-
-symtable:
-
-sys:
-
-sysconfig:
-
-syslog:
-
-tabnanny:
-
-tarfile:
-
-telnetlib:
-
-tempfile:
-
-termios:
-
-test:
-
-test.support:
-
-test.support.script_helper:
-
-textwrap:
-
-threading:
-
-time:
-
-timeit:
-
-tkinter:
-
-tkinter.scrolledtext:
-
-tkinter.tix:
-
-tkinter.ttk:
-
-token:
-
-tokenize:
-
-trace:
-
-traceback:
-
-tracemalloc:
-
-tty:
-
-turtle:
-
-turtledemo:
-
-types:
-
-typing:
-
-unicodedata:
-
-unittest: pytest
-
-unittest.mock:
-
-urllib:
-
-urllib.error:
-
-urllib.parse:
-
-urllib.request: requests
-
-urllib.response:
-
-urllib.robotparser:
-
-uu:
-
-uuid:
-
-venv:
-
-warnings:
-
-wave:
-
-weakref:
-
-webbrowser:
-
-winreg:
-
-winsound:
-
-wsgiref:
-
-wsgiref.handlers:
-
-wsgiref.headers:
-
-wsgiref.simple_server:
-
-wsgiref.util:
-
-wsgiref.validate:
-
-xdrlib:
-
-xml: lxml
-
-xml.dom:
-
-xml.dom.minidom:
-
-xml.dom.pulldom:
-
-xml.etree.ElementTree:
-
-xml.parsers.expat:
-
-xml.parsers.expat.errors:
-
-xml.parsers.expat.model:
-
-xml.sax:
-
-xml.sax.handler:
-
-xml.sax.saxutils:
-
-xml.sax.xmlreader:
-
-xmlrpc.client:
-
-xmlrpc.server:
-
-zipapp: pex
-
-zipfile:
-
-zipimport:
-
-zlib:
+### zipapp
+- [pex](https://github.com/pantsbuild/pex/): A library and tool for generating .pex (Python EXecutable) files 
