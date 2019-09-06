@@ -1,3 +1,6 @@
+# Python standard library alternatives
+
+A collection of third-party alternatives to Python standard library modules.
 ### [ast](https://docs.python.org/3/library/ast.html)
 - [parso](https://parso.readthedocs.io/en/latest/): Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions). Parso is also able to list multiple syntax errors in your python file. 
 - [libcst](https://libcst.readthedocs.io/en/latest/): LibCST parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It’s useful for building automated refactoring (codemod) applications and linters. 

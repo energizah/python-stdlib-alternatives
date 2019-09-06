@@ -2,7 +2,7 @@ import pathlib
 import textwrap
 
 
-def main(stdlib_path, alternatives_path, output_path):
+def main(stdlib_path, alternatives_path, header_path, output_path):
     alternatives = {}
     stdlib_to_alternatives = {}
 
@@ -38,8 +38,14 @@ def main(stdlib_path, alternatives_path, output_path):
             section = f"### {stdlib_module_text}\n" + alts_text
             out.append(section)
 
-    pathlib.Path(output_path).write_text("\n".join(out))
+    out_text = pathlib.Path(header_path).read_text() + "\n".join(out)
+    pathlib.Path(output_path).write_text(out_text)
 
 
 if __name__ == "__main__":
-    main("stdlib.txt", "alternatives.txt", "README.md")
+    main(
+        stdlib_path="stdlib.txt",
+        alternatives_path="alternatives.txt",
+        header_path="header.md",
+        output_path="README.md",
+    )
