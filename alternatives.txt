@@ -1,0 +1,28 @@
+zope.interface https://github.com/zopefoundation/zope.interface Interfaces for python.
+click https://click.palletsprojects.com/en/7.x/ Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.
+numpy https://numpy.org/ NumPy is the fundamental package for scientific computing with Python.
+parso https://parso.readthedocs.io/en/latest/ Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions). Parso is also able to list multiple syntax errors in your python file.
+libcst https://libcst.readthedocs.io/en/latest/ LibCST parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It’s useful for building automated refactoring (codemod) applications and linters.
+awpa https://github.com/pyga/awpa A working Python AST
+trio https://trio.readthedocs.io/en/stable/ The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python.
+twisted https://twistedmatrix.com/trac/ Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license.
+dask https://dask.readthedocs.io/en/latest/ Dask is a flexible library for parallel computing in Python.
+toml https://pypi.org/project/toml/ A Python library for parsing and creating TOML.
+urwid http://urwid.org/ Console user interface library for Python
+prompt_toolkit https://github.com/prompt-toolkit/python-prompt-toolkit/ prompt_toolkit is a library for building powerful interactive command line applications in Python.
+attrs http://www.attrs.org/en/stable/ attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods).
+pendulum https://pendulum.eustace.io Pendulum is a Python package to ease datetimes manipulation.
+pytest-sphinx https://github.com/thisch/pytest-sphinx A doctest plugin for pytest, which understands the sphinx-specific directives from doctest-sphinx.
+pathlib https://docs.python.org/3/library/pathlib.html This module offers classes representing filesystem paths with semantics appropriate for different operating systems.
+eliot https://eliot.readthedocs.io/en/stable/ Eliot: Logging that tells you why it happened
+structlog http://www.structlog.org/en/stable/ structlog makes logging in Python less painful and more powerful by adding structure to your log entries.
+apscheduler https://apscheduler.readthedocs.io/en/latest/ Advanced Python Scheduler (APScheduler) is a Python library that lets you schedule your Python code to be executed later, either just once or periodically.
+scipy.stats https://docs.scipy.org/doc/scipy/reference/stats.html This module contains a large number of probability distributions as well as a growing library of statistical functions.
+requests https://python-requests.org/en/master/ Requests is an elegant and simple HTTP library for Python, built for human beings.
+pex https://github.com/pantsbuild/pex/ A library and tool for generating .pex (Python EXecutable) files
+cffi https://cffi.readthedocs.io/en/latest/ C Foreign Function Interface for Python.
+pudb https://github.com/inducer/pudb PuDB is a full-screen, console-based visual debugger for Python.
+regex https://pypi.org/project/regex/ This regex implementation is backwards-compatible with the standard ‘re’ module, but offers additional functionality.
+sqlalchemy https://www.sqlalchemy.org/ SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
+pytest https://pytest.org/en/latest/ The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
+lxml https://pypi.org/project/lxml/ The most feature-rich and easy-to-use library for processing XML and HTML in the Python language.
