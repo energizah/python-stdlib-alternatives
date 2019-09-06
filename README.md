@@ -2,13 +2,13 @@ __future__:
 __main__:
 _dummy_thread:
 _thread:
-abc:
+abc: zope.interface
 aifc:
-argparse:
-array:
-ast:
+argparse: click
+array: numpy
+ast: parso, libcst awpa
 asynchat:
-asyncio:
+asyncio: trio, twisted
 asyncore:
 atexit:
 audioop:
@@ -33,21 +33,21 @@ collections:
 collections.abc:
 colorsys:
 compileall:
-concurrent.futures:
-configparser:
+concurrent.futures: dask
+configparser: toml
 contextlib:
 contextvars:
 copy:
 copyreg:
 crypt:
 csv:
-ctypes:
-curses:
+ctypes: cffi
+curses: urwid, prompt_toolkit
 curses.ascii:
 curses.panel:
 curses.textpad:
-dataclasses:
-datetime:
+dataclasses: attrs
+datetime: pendulum
 dbm:
 dbm.dumb:
 dbm.gnu:
@@ -101,7 +101,7 @@ distutils.text_file:
 distutils.unixccompiler:
 distutils.util:
 distutils.version:
-doctest:
+doctest: https://github.com/thisch/pytest-sphinx
 dummy_threading:
 email:
 email.charset:
@@ -133,10 +133,10 @@ fractions:
 ftplib:
 functools:
 gc:
-getopt:
-getpass:
+getopt: click
+getpass: click, prompt_toolkit
 gettext:
-glob:
+glob: pathlib
 grp:
 gzip:
 hashlib:
@@ -168,7 +168,7 @@ keyword:
 lib2to3:
 linecache:
 locale:
-logging:
+logging: eliot, structlog
 logging.config:
 logging.handlers:
 lzma:
@@ -193,13 +193,13 @@ nis:
 nntplib:
 numbers:
 operator:
-optparse:
+optparse: click
 os:
-os.path:
+os.path: pathlib
 ossaudiodev:
 parser:
 pathlib:
-pdb:
+pdb: pudb
 pickle:
 pickletools:
 pipes:
@@ -219,15 +219,15 @@ pydoc:
 queue:
 quopri:
 random:
-re:
-readline:
+re: regex
+readline: prompt_toolkit
 reprlib:
 resource:
 rlcompleter:
 runpy:
-sched:
+sched: apscheduler
 secrets:
-select:
+select: trio, twisted
 selectors:
 shelve:
 shlex:
@@ -240,10 +240,10 @@ sndhdr:
 socket:
 socketserver:
 spwd:
-sqlite3:
+sqlite3: sqlalchemy core
 ssl:
 stat:
-statistics:
+statistics: scipy.stats
 string:
 stringprep:
 struct:
@@ -281,12 +281,12 @@ turtledemo:
 types:
 typing:
 unicodedata:
-unittest:
+unittest: pytest
 unittest.mock:
 urllib:
 urllib.error:
 urllib.parse:
-urllib.request:
+urllib.request: requests
 urllib.response:
 urllib.robotparser:
 uu:
@@ -305,7 +305,7 @@ wsgiref.simple_server:
 wsgiref.util:
 wsgiref.validate:
 xdrlib:
-xml:
+xml: lxml
 xml.dom:
 xml.dom.minidom:
 xml.dom.pulldom:
@@ -319,7 +319,7 @@ xml.sax.saxutils:
 xml.sax.xmlreader:
 xmlrpc.client:
 xmlrpc.server:
-zipapp:
+zipapp: pex
 zipfile:
 zipimport:
 zlib:
