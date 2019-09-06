@@ -6,8 +6,14 @@ def main(stdlib_path, alternatives_path, output_path):
     alternatives = {}
     stdlib_to_alternatives = {}
 
-    for line in pathlib.Path(alternatives_path).read_text().splitlines():
+    alternatives_path = pathlib.Path(alternatives_path)
+    alternatives_path.write_text(
+        "\n".join(sorted(alternatives_path.read_text().splitlines())) + "\n"
+    )
+
+    for line in alternatives_path.read_text().splitlines():
         name, url, description = line.split(maxsplit=2)
+        assert url.startswith("http")
         alternatives[name] = {"description": description, "url": url}
 
     for line in pathlib.Path(stdlib_path).read_text().splitlines():
