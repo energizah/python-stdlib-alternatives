@@ -19,6 +19,7 @@ pytest-sphinx https://github.com/thisch/pytest-sphinx A doctest plugin for pytes
 regex https://pypi.org/project/regex/ This regex implementation is backwards-compatible with the standard ‘re’ module, but offers additional functionality.
 requests https://python-requests.org/en/master/ Requests is an elegant and simple HTTP library for Python, built for human beings.
 scipy.stats https://docs.scipy.org/doc/scipy/reference/stats.html This module contains a large number of probability distributions as well as a growing library of statistical functions.
+shiv https://github.com/linkedin/shiv shiv is a command line utility for building fully self contained Python zipapps as outlined in PEP 441, but with all their dependencies included.
 sqlalchemy https://www.sqlalchemy.org/ SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
 structlog http://www.structlog.org/en/stable/ structlog makes logging in Python less painful and more powerful by adding structure to your log entries.
 toml https://pypi.org/project/toml/ A Python library for parsing and creating TOML.

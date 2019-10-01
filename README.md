@@ -85,3 +85,4 @@ A collection of third-party alternatives to Python standard library modules.
 
 ### [zipapp](https://docs.python.org/3/library/zipapp.html)
 - [pex](https://github.com/pantsbuild/pex/): A library and tool for generating .pex (Python EXecutable) files 
+- [shiv](https://github.com/linkedin/shiv): shiv is a command line utility for building fully self contained Python zipapps as outlined in PEP 441, but with all their dependencies included. 

@@ -319,7 +319,7 @@ xml.sax.saxutils
 xml.sax.xmlreader
 xmlrpc.client
 xmlrpc.server
-zipapp pex
+zipapp pex shiv
 zipfile
 zipimport
 zlib
