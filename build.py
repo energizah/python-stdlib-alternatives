@@ -44,8 +44,8 @@ def main(stdlib_path, alternatives_path, header_path, output_path):
 
 if __name__ == "__main__":
     main(
-        stdlib_path="stdlib.txt",
-        alternatives_path="alternatives.txt",
+        stdlib_path="input/stdlib.txt",
+        alternatives_path="input/alternatives.txt",
         header_path="header.md",
         output_path="README.md",
     )
