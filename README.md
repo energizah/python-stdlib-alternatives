@@ -20,6 +20,7 @@ A collection of third-party alternatives to Python standard library modules.
 - [cffi](https://cffi.readthedocs.io/en/latest/): C Foreign Function Interface for Python. 
 
 ### [curses](https://docs.python.org/3/library/curses.html)
+- [blessed](https://github.com/jquast/blessed): Blessed is a thin, practical wrapper around terminal capabilities in Python. 
 - [urwid](http://urwid.org/): Console user interface library for Python 
 - [prompt_toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit/): prompt_toolkit is a library for building powerful interactive command line applications in Python. 
 

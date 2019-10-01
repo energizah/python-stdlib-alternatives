@@ -1,6 +1,7 @@
 apscheduler https://apscheduler.readthedocs.io/en/latest/ Advanced Python Scheduler (APScheduler) is a Python library that lets you schedule your Python code to be executed later, either just once or periodically.
 attrs http://www.attrs.org/en/stable/ attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods).
 awpa https://github.com/pyga/awpa A working Python AST
+blessed https://github.com/jquast/blessed Blessed is a thin, practical wrapper around terminal capabilities in Python.
 cffi https://cffi.readthedocs.io/en/latest/ C Foreign Function Interface for Python.
 click https://click.palletsprojects.com/en/7.x/ Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.
 dask https://dask.readthedocs.io/en/latest/ Dask is a flexible library for parallel computing in Python.
