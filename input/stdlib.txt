@@ -237,7 +237,7 @@ site
 smtpd
 smtplib
 sndhdr
-socket
+socket trio twisted
 socketserver
 spwd
 sqlite3 sqlalchemy

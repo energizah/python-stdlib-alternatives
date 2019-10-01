@@ -69,6 +69,10 @@ A collection of third-party alternatives to Python standard library modules.
 - [trio](https://trio.readthedocs.io/en/stable/): The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python. 
 - [twisted](https://twistedmatrix.com/trac/): Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license. 
 
+### [socket](https://docs.python.org/3/library/socket.html)
+- [trio](https://trio.readthedocs.io/en/stable/): The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python. 
+- [twisted](https://twistedmatrix.com/trac/): Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license. 
+
 ### [sqlite3](https://docs.python.org/3/library/sqlite3.html)
 - [sqlalchemy](https://www.sqlalchemy.org/): SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL. 
 
