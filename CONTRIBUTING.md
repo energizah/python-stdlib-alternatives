@@ -1,1 +1,1 @@
-Edit the input files, not the `README.md`. Then run `python3 build.py`.
+Edit the input files, not the `README.md`. In stdlib.txt put the name of the library next to its corresponding stdlib module. In alternatives.txt put the name of the module, the github url, and the module's official description. Then run `python3 build.py`.
