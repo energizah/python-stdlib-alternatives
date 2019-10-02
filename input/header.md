@@ -1,3 +1,3 @@
-# Python standard library alternatives
+# Python 3 standard library alternatives
 
-A collection of third-party alternatives to Python standard library modules.
+A collection of third-party alternatives to Python 3 standard library modules.

@@ -1,6 +1,6 @@
-# Python standard library alternatives
+# Python 3 standard library alternatives
 
-A collection of third-party alternatives to Python standard library modules.
+A collection of third-party alternatives to Python 3 standard library modules.
 ### [abc](https://docs.python.org/3/library/abc.html)
 - [zope.interface](https://github.com/zopefoundation/zope.interface): Interfaces for python. 
 
