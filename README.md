@@ -1,6 +1,15 @@
 # Python standard library alternatives
 
 A collection of third-party alternatives to Python standard library modules.
+### [abc](https://docs.python.org/3/library/abc.html)
+- [zope.interface](https://github.com/zopefoundation/zope.interface): Interfaces for python. 
+
+### [argparse](https://docs.python.org/3/library/argparse.html)
+- [click](https://click.palletsprojects.com/en/7.x/): Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. 
+
+### [array](https://docs.python.org/3/library/array.html)
+- [numpy](https://numpy.org/): NumPy is the fundamental package for scientific computing with Python. 
+
 ### [ast](https://docs.python.org/3/library/ast.html)
 - [parso](https://parso.readthedocs.io/en/latest/): Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions). Parso is also able to list multiple syntax errors in your python file. 
 - [libcst](https://libcst.readthedocs.io/en/latest/): LibCST parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It’s useful for building automated refactoring (codemod) applications and linters. 
@@ -9,6 +18,9 @@ A collection of third-party alternatives to Python standard library modules.
 ### [asyncio](https://docs.python.org/3/library/asyncio.html)
 - [trio](https://trio.readthedocs.io/en/stable/): The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python. 
 - [twisted](https://twistedmatrix.com/trac/): Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license. 
+
+### [cProfile](https://docs.python.org/3/library/cProfile.html)
+- [plop](https://github.com/bdarnell/plop): Plop is a stack-sampling profiler for Python. Profile collection can be turned on and off in a live process with minimal performance impact. 
 
 ### [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
 - [dask](https://dask.readthedocs.io/en/latest/): Dask is a flexible library for parallel computing in Python. 
@@ -30,6 +42,10 @@ A collection of third-party alternatives to Python standard library modules.
 ### [datetime](https://docs.python.org/3/library/datetime.html)
 - [pendulum](https://pendulum.eustace.io): Pendulum is a Python package to ease datetimes manipulation. 
 
+### [distutils](https://docs.python.org/3/library/distutils.html)
+- [setuptools](https://github.com/pypa/setuptools): Setuptools is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects 
+- [poetry](https://github.com/sdispater/poetry/): Python dependency management and packaging made easy. 
+
 ### [doctest](https://docs.python.org/3/library/doctest.html)
 - [pytest-sphinx](https://github.com/thisch/pytest-sphinx): A doctest plugin for pytest, which understands the sphinx-specific directives from doctest-sphinx. 
 
@@ -43,9 +59,22 @@ A collection of third-party alternatives to Python standard library modules.
 ### [glob](https://docs.python.org/3/library/glob.html)
 - [pathlib](https://docs.python.org/3/library/pathlib.html): This module offers classes representing filesystem paths with semantics appropriate for different operating systems. 
 
+### [heapq](https://docs.python.org/3/library/heapq.html)
+- [sortedcontainers](https://github.com/grantjenks/python-sortedcontainers): Sorted Containers is an Apache2 licensed sorted collections library, written in pure-Python, and fast as C-extensions. 
+
+### [imp](https://docs.python.org/3/library/imp.html)
+- [importlib](https://docs.python.org/3/library/importlib.html): The components to implement import are exposed in this package, making it easier for users to create their own custom objects (known generically as an importer) to participate in the import process. 
+
+### [lib2to3](https://docs.python.org/3/library/lib2to3.html)
+- [libcst](https://libcst.readthedocs.io/en/latest/): LibCST parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It’s useful for building automated refactoring (codemod) applications and linters. 
+- [parso](https://parso.readthedocs.io/en/latest/): Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions). Parso is also able to list multiple syntax errors in your python file. 
+
 ### [logging](https://docs.python.org/3/library/logging.html)
 - [eliot](https://eliot.readthedocs.io/en/stable/): Eliot: Logging that tells you why it happened 
 - [structlog](http://www.structlog.org/en/stable/): structlog makes logging in Python less painful and more powerful by adding structure to your log entries. 
+
+### [multiprocessing](https://docs.python.org/3/library/multiprocessing.html)
+- [dask](https://dask.readthedocs.io/en/latest/): Dask is a flexible library for parallel computing in Python. 
 
 ### [optparse](https://docs.python.org/3/library/optparse.html)
 - [click](https://click.palletsprojects.com/en/7.x/): Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. 
@@ -55,6 +84,15 @@ A collection of third-party alternatives to Python standard library modules.
 
 ### [pdb](https://docs.python.org/3/library/pdb.html)
 - [pudb](https://github.com/inducer/pudb): PuDB is a full-screen, console-based visual debugger for Python. 
+
+### [pickle](https://docs.python.org/3/library/pickle.html)
+- [cloudpickle](https://github.com/cloudpipe/cloudpickle): cloudpickle makes it possible to serialize Python constructs not supported by the default pickle module from the Python standard library. 
+
+### [pprint](https://docs.python.org/3/library/pprint.html)
+- [pprintpp](https://github.com/wolever/pprintpp): pprint++: a drop-in replacement for pprint that's actually pretty 
+
+### [random](https://docs.python.org/3/library/random.html)
+- [numpy](https://numpy.org/): NumPy is the fundamental package for scientific computing with Python. 
 
 ### [re](https://docs.python.org/3/library/re.html)
 - [regex](https://pypi.org/project/regex/): This regex implementation is backwards-compatible with the standard ‘re’ module, but offers additional functionality. 
@@ -79,11 +117,17 @@ A collection of third-party alternatives to Python standard library modules.
 ### [statistics](https://docs.python.org/3/library/statistics.html)
 - [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html): This module contains a large number of probability distributions as well as a growing library of statistical functions. 
 
+### [telnetlib](https://docs.python.org/3/library/telnetlib.html)
+- [conch](https://twistedmatrix.com/trac/wiki/TwistedConch): Conch is an SSHv2 implementation written in Python. Conch also includes a implementations of the telnet and vt102 protocols, as well as support for rudimentary line editing behaviors. 
+
 ### [unittest](https://docs.python.org/3/library/unittest.html)
 - [pytest](https://pytest.org/en/latest/): The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries. 
 
 ### [urllib.request](https://docs.python.org/3/library/urllib.request.html)
 - [requests](https://python-requests.org/en/master/): Requests is an elegant and simple HTTP library for Python, built for human beings. 
+
+### [venv](https://docs.python.org/3/library/venv.html)
+- [poetry](https://github.com/sdispater/poetry/): Python dependency management and packaging made easy. 
 
 ### [xml](https://docs.python.org/3/library/xml.html)
 - [lxml](https://pypi.org/project/lxml/): The most feature-rich and easy-to-use library for processing XML and HTML in the Python language. 
