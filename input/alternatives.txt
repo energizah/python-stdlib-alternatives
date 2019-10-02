@@ -21,6 +21,8 @@ poetry https://github.com/sdispater/poetry/ Python dependency management and pac
 pprintpp https://github.com/wolever/pprintpp pprint++: a drop-in replacement for pprint that's actually pretty
 prompt_toolkit https://github.com/prompt-toolkit/python-prompt-toolkit/ prompt_toolkit is a library for building powerful interactive command line applications in Python.
 pudb https://github.com/inducer/pudb PuDB is a full-screen, console-based visual debugger for Python.
+pyinstaller https://www.pyinstaller.org/ PyInstaller freezes (packages) Python applications into stand-alone executables, under Windows, GNU/Linux, Mac OS X, FreeBSD, Solaris and AIX.
+pyqt5 https://pypi.org/project/PyQt5/ Qt is set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems
 pytest https://pytest.org/en/latest/ The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 pytest-sphinx https://github.com/thisch/pytest-sphinx A doctest plugin for pytest, which understands the sphinx-specific directives from doctest-sphinx.
 regex https://pypi.org/project/regex/ This regex implementation is backwards-compatible with the standard ‘re’ module, but offers additional functionality.

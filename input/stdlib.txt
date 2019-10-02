@@ -146,7 +146,7 @@ html
 html.entities
 html.parser
 http
-http.client
+http.client requests
 http.cookiejar
 http.cookies
 http.server
@@ -266,7 +266,7 @@ textwrap
 threading
 time
 timeit
-tkinter
+tkinter pyqt5
 tkinter.scrolledtext
 tkinter.tix
 tkinter.ttk
@@ -319,7 +319,7 @@ xml.sax.saxutils
 xml.sax.xmlreader
 xmlrpc.client
 xmlrpc.server
-zipapp pex shiv
+zipapp pex shiv pyinstaller
 zipfile
 zipimport
 zlib

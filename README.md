@@ -62,6 +62,9 @@ A collection of third-party alternatives to Python standard library modules.
 ### [heapq](https://docs.python.org/3/library/heapq.html)
 - [sortedcontainers](https://github.com/grantjenks/python-sortedcontainers): Sorted Containers is an Apache2 licensed sorted collections library, written in pure-Python, and fast as C-extensions. 
 
+### [http.client](https://docs.python.org/3/library/http.client.html)
+- [requests](https://python-requests.org/en/master/): Requests is an elegant and simple HTTP library for Python, built for human beings. 
+
 ### [imp](https://docs.python.org/3/library/imp.html)
 - [importlib](https://docs.python.org/3/library/importlib.html): The components to implement import are exposed in this package, making it easier for users to create their own custom objects (known generically as an importer) to participate in the import process. 
 
@@ -120,6 +123,9 @@ A collection of third-party alternatives to Python standard library modules.
 ### [telnetlib](https://docs.python.org/3/library/telnetlib.html)
 - [conch](https://twistedmatrix.com/trac/wiki/TwistedConch): Conch is an SSHv2 implementation written in Python. Conch also includes a implementations of the telnet and vt102 protocols, as well as support for rudimentary line editing behaviors. 
 
+### [tkinter](https://docs.python.org/3/library/tkinter.html)
+- [pyqt5](https://pypi.org/project/PyQt5/): Qt is set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems 
+
 ### [unittest](https://docs.python.org/3/library/unittest.html)
 - [pytest](https://pytest.org/en/latest/): The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries. 
 
@@ -135,3 +141,4 @@ A collection of third-party alternatives to Python standard library modules.
 ### [zipapp](https://docs.python.org/3/library/zipapp.html)
 - [pex](https://github.com/pantsbuild/pex/): A library and tool for generating .pex (Python EXecutable) files 
 - [shiv](https://github.com/linkedin/shiv): shiv is a command line utility for building fully self contained Python zipapps as outlined in PEP 441, but with all their dependencies included. 
+- [pyinstaller](https://www.pyinstaller.org/): PyInstaller freezes (packages) Python applications into stand-alone executables, under Windows, GNU/Linux, Mac OS X, FreeBSD, Solaris and AIX. 
