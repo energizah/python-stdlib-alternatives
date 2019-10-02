@@ -46,6 +46,6 @@ if __name__ == "__main__":
     main(
         stdlib_path="input/stdlib.txt",
         alternatives_path="input/alternatives.txt",
-        header_path="header.md",
+        header_path="input/header.md",
         output_path="README.md",
     )
