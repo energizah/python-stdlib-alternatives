@@ -22,6 +22,7 @@ pprintpp https://github.com/wolever/pprintpp pprint++: a drop-in replacement for
 prompt_toolkit https://github.com/prompt-toolkit/python-prompt-toolkit/ prompt_toolkit is a library for building powerful interactive command line applications in Python.
 pudb https://github.com/inducer/pudb PuDB is a full-screen, console-based visual debugger for Python.
 pyinstaller https://www.pyinstaller.org/ PyInstaller freezes (packages) Python applications into stand-alone executables, under Windows, GNU/Linux, Mac OS X, FreeBSD, Solaris and AIX.
+pyperf https://pyperf.readthedocs.io/en/latest/ The Python pyperf module is a toolkit to write, run and analyze benchmarks.
 pyqt5 https://pypi.org/project/PyQt5/ Qt is set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems
 pytest https://pytest.org/en/latest/ The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 pytest-sphinx https://github.com/thisch/pytest-sphinx A doctest plugin for pytest, which understands the sphinx-specific directives from doctest-sphinx.

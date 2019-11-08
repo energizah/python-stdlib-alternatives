@@ -123,6 +123,9 @@ A collection of third-party alternatives to Python 3 standard library modules.
 ### [telnetlib](https://docs.python.org/3/library/telnetlib.html)
 - [conch](https://twistedmatrix.com/trac/wiki/TwistedConch): Conch is an SSHv2 implementation written in Python. Conch also includes a implementations of the telnet and vt102 protocols, as well as support for rudimentary line editing behaviors. 
 
+### [timeit](https://docs.python.org/3/library/timeit.html)
+- [pyperf](https://pyperf.readthedocs.io/en/latest/): The Python pyperf module is a toolkit to write, run and analyze benchmarks. 
+
 ### [tkinter](https://docs.python.org/3/library/tkinter.html)
 - [pyqt5](https://pypi.org/project/PyQt5/): Qt is set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems 
 

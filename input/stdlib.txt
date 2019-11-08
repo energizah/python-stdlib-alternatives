@@ -265,7 +265,7 @@ test.support.script_helper
 textwrap
 threading
 time
-timeit
+timeit pyperf
 tkinter pyqt5
 tkinter.scrolledtext
 tkinter.tix
