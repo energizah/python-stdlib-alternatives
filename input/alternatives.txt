@@ -6,6 +6,7 @@ cffi https://cffi.readthedocs.io/en/latest/ C Foreign Function Interface for Pyt
 click https://click.palletsprojects.com/en/7.x/ Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.
 cloudpickle https://github.com/cloudpipe/cloudpickle cloudpickle makes it possible to serialize Python constructs not supported by the default pickle module from the Python standard library.
 conch https://twistedmatrix.com/trac/wiki/TwistedConch Conch is an SSHv2 implementation written in Python. Conch also includes a implementations of the telnet and vt102 protocols, as well as support for rudimentary line editing behaviors.
+construct https://construct.readthedocs.io/en/latest/ Construct is a powerful declarative and symmetrical parser and builder for binary data.
 dask https://dask.readthedocs.io/en/latest/ Dask is a flexible library for parallel computing in Python.
 eliot https://eliot.readthedocs.io/en/stable/ Eliot: Logging that tells you why it happened
 importlib https://docs.python.org/3/library/importlib.html The components to implement import are exposed in this package, making it easier for users to create their own custom objects (known generically as an importer) to participate in the import process.

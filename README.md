@@ -120,6 +120,9 @@ A collection of third-party alternatives to Python 3 standard library modules.
 ### [statistics](https://docs.python.org/3/library/statistics.html)
 - [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html): This module contains a large number of probability distributions as well as a growing library of statistical functions. 
 
+### [struct](https://docs.python.org/3/library/struct.html)
+- [construct](https://construct.readthedocs.io/en/latest/): Construct is a powerful declarative and symmetrical parser and builder for binary data. 
+
 ### [telnetlib](https://docs.python.org/3/library/telnetlib.html)
 - [conch](https://twistedmatrix.com/trac/wiki/TwistedConch): Conch is an SSHv2 implementation written in Python. Conch also includes a implementations of the telnet and vt102 protocols, as well as support for rudimentary line editing behaviors. 
 

@@ -246,7 +246,7 @@ stat
 statistics scipy.stats
 string
 stringprep
-struct
+struct construct
 subprocess
 sunau
 symbol
