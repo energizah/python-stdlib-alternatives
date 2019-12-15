@@ -123,6 +123,10 @@ A collection of third-party alternatives to Python 3 standard library modules.
 ### [struct](https://docs.python.org/3/library/struct.html)
 - [construct](https://construct.readthedocs.io/en/latest/): Construct is a powerful declarative and symmetrical parser and builder for binary data. 
 
+### [subprocess](https://docs.python.org/3/library/subprocess.html)
+- [sh](https://amoffat.github.io/sh/): sh is a full-fledged subprocess replacement for Python 2.6 - 3.5, PyPy and PyPy3 that allows you to call any program as if it were a function. 
+- [plumbum](https://plumbum.readthedocs.io/en/latest/): A small yet feature-rich library for shell script-like programs in Python. 
+
 ### [telnetlib](https://docs.python.org/3/library/telnetlib.html)
 - [conch](https://twistedmatrix.com/trac/wiki/TwistedConch): Conch is an SSHv2 implementation written in Python. Conch also includes a implementations of the telnet and vt102 protocols, as well as support for rudimentary line editing behaviors. 
 

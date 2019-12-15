@@ -18,6 +18,7 @@ pathlib https://docs.python.org/3/library/pathlib.html This module offers classe
 pendulum https://pendulum.eustace.io Pendulum is a Python package to ease datetimes manipulation.
 pex https://github.com/pantsbuild/pex/ A library and tool for generating .pex (Python EXecutable) files
 plop https://github.com/bdarnell/plop Plop is a stack-sampling profiler for Python. Profile collection can be turned on and off in a live process with minimal performance impact.
+plumbum https://plumbum.readthedocs.io/en/latest/ A small yet feature-rich library for shell script-like programs in Python.
 poetry https://github.com/sdispater/poetry/ Python dependency management and packaging made easy.
 pprintpp https://github.com/wolever/pprintpp pprint++: a drop-in replacement for pprint that's actually pretty
 prompt_toolkit https://github.com/prompt-toolkit/python-prompt-toolkit/ prompt_toolkit is a library for building powerful interactive command line applications in Python.
@@ -31,6 +32,7 @@ regex https://pypi.org/project/regex/ This regex implementation is backwards-com
 requests https://python-requests.org/en/master/ Requests is an elegant and simple HTTP library for Python, built for human beings.
 scipy.stats https://docs.scipy.org/doc/scipy/reference/stats.html This module contains a large number of probability distributions as well as a growing library of statistical functions.
 setuptools https://github.com/pypa/setuptools Setuptools is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects
+sh https://amoffat.github.io/sh/ sh is a full-fledged subprocess replacement for Python 2.6 - 3.5, PyPy and PyPy3 that allows you to call any program as if it were a function.
 shiv https://github.com/linkedin/shiv shiv is a command line utility for building fully self contained Python zipapps as outlined in PEP 441, but with all their dependencies included.
 sortedcontainers https://github.com/grantjenks/python-sortedcontainers Sorted Containers is an Apache2 licensed sorted collections library, written in pure-Python, and fast as C-extensions.
 sqlalchemy https://www.sqlalchemy.org/ SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.

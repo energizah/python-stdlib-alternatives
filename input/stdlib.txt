@@ -247,7 +247,7 @@ statistics scipy.stats
 string
 stringprep
 struct construct
-subprocess
+subprocess sh plumbum
 sunau
 symbol
 symtable
