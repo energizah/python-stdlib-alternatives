@@ -50,6 +50,9 @@ A collection of third-party alternatives to Python 3 standard library modules.
 ### [doctest](https://docs.python.org/3/library/doctest.html)
 - [pytest-sphinx](https://github.com/thisch/pytest-sphinx): A doctest plugin for pytest, which understands the sphinx-specific directives from doctest-sphinx. 
 
+### [email](https://docs.python.org/3/library/email.html)
+- [emails](https://python-emails.readthedocs.io/en/latest/): Modern email handling in python. 
+
 ### [getopt](https://docs.python.org/3/library/getopt.html)
 - [click](https://click.palletsprojects.com/en/7.x/): Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. 
 

@@ -9,6 +9,7 @@ conch https://twistedmatrix.com/trac/wiki/TwistedConch Conch is an SSHv2 impleme
 construct https://construct.readthedocs.io/en/latest/ Construct is a powerful declarative and symmetrical parser and builder for binary data.
 dask https://dask.readthedocs.io/en/latest/ Dask is a flexible library for parallel computing in Python.
 eliot https://eliot.readthedocs.io/en/stable/ Eliot: Logging that tells you why it happened
+emails https://python-emails.readthedocs.io/en/latest/ Modern email handling in python.
 importlib https://docs.python.org/3/library/importlib.html The components to implement import are exposed in this package, making it easier for users to create their own custom objects (known generically as an importer) to participate in the import process.
 libcst https://libcst.readthedocs.io/en/latest/ LibCST parses Python 3.7 source code as a CST tree that keeps all formatting details (comments, whitespaces, parentheses, etc). It’s useful for building automated refactoring (codemod) applications and linters.
 lxml https://pypi.org/project/lxml/ The most feature-rich and easy-to-use library for processing XML and HTML in the Python language.

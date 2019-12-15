@@ -103,7 +103,7 @@ distutils.util
 distutils.version
 doctest pytest-sphinx
 dummy_threading
-email
+email emails
 email.charset
 email.contentmanager
 email.encoders
