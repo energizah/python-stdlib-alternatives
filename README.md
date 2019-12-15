@@ -21,6 +21,7 @@ A collection of third-party alternatives to Python 3 standard library modules.
 
 ### [cProfile](https://docs.python.org/3/library/cProfile.html)
 - [plop](https://github.com/bdarnell/plop): Plop is a stack-sampling profiler for Python. Profile collection can be turned on and off in a live process with minimal performance impact. 
+- [pyperf](https://pyperf.readthedocs.io/en/latest/): The Python pyperf module is a toolkit to write, run and analyze benchmarks. 
 
 ### [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
 - [dask](https://dask.readthedocs.io/en/latest/): Dask is a flexible library for parallel computing in Python. 
@@ -93,6 +94,10 @@ A collection of third-party alternatives to Python 3 standard library modules.
 
 ### [pprint](https://docs.python.org/3/library/pprint.html)
 - [pprintpp](https://github.com/wolever/pprintpp): pprint++: a drop-in replacement for pprint that's actually pretty 
+
+### [profile](https://docs.python.org/3/library/profile.html)
+- [plop](https://github.com/bdarnell/plop): Plop is a stack-sampling profiler for Python. Profile collection can be turned on and off in a live process with minimal performance impact. 
+- [pyperf](https://pyperf.readthedocs.io/en/latest/): The Python pyperf module is a toolkit to write, run and analyze benchmarks. 
 
 ### [random](https://docs.python.org/3/library/random.html)
 - [numpy](https://numpy.org/): NumPy is the fundamental package for scientific computing with Python. 

@@ -19,7 +19,7 @@ binhex
 bisect
 builtins
 bz2
-cProfile plop
+cProfile plop pyperf
 calendar
 cgi
 cgitb
@@ -209,7 +209,7 @@ plistlib
 poplib
 posix
 pprint pprintpp
-profile
+profile plop pyperf
 pstats
 pty
 pwd
