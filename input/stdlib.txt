@@ -240,7 +240,7 @@ sndhdr
 socket trio twisted
 socketserver
 spwd
-sqlite3 sqlalchemy
+sqlite3 sqlalchemy supersqlite
 ssl
 stat
 statistics scipy.stats

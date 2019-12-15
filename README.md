@@ -124,6 +124,7 @@ A collection of third-party alternatives to Python 3 standard library modules.
 
 ### [sqlite3](https://docs.python.org/3/library/sqlite3.html)
 - [sqlalchemy](https://www.sqlalchemy.org/): SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL. 
+- [supersqlite](https://github.com/plasticityai/supersqlite): Offers unique features like remote streaming over HTTP and bundling of extensions like JSON, R-Trees (geospatial indexing), and Full Text Search. 
 
 ### [statistics](https://docs.python.org/3/library/statistics.html)
 - [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html): This module contains a large number of probability distributions as well as a growing library of statistical functions. 
