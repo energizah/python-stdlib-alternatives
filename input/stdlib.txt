@@ -42,7 +42,7 @@ copyreg
 crypt
 csv
 ctypes cffi
-curses blessed urwid prompt_toolkit
+curses blessed urwid prompt_toolkit pyte vdtui
 curses.ascii
 curses.panel
 curses.textpad

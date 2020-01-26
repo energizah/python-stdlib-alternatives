@@ -36,6 +36,8 @@ A collection of third-party alternatives to Python 3 standard library modules.
 - [blessed](https://github.com/jquast/blessed): Blessed is a thin, practical wrapper around terminal capabilities in Python. 
 - [urwid](http://urwid.org/): Console user interface library for Python 
 - [prompt_toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit/): prompt_toolkit is a library for building powerful interactive command line applications in Python. 
+- [pyte](https://pyte.readthedocs.io/en/latest/): It’s an in memory VTXXX-compatible terminal emulator. 
+- [vdtui](https://github.com/saulpw/vsh/blob/master/vdtui.py): A curses framework for columnar data. 
 
 ### [dataclasses](https://docs.python.org/3/library/dataclasses.html)
 - [attrs](http://www.attrs.org/en/stable/): attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods). 
