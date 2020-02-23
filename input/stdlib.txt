@@ -9,7 +9,7 @@ array numpy
 ast parso libcst awpa
 asynchat
 asyncio trio twisted
-asyncore
+asyncore trio twisted
 atexit
 audioop
 base64

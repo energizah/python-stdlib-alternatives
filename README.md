@@ -19,6 +19,10 @@ A collection of third-party alternatives to Python 3 standard library modules.
 - [trio](https://trio.readthedocs.io/en/stable/): The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python. 
 - [twisted](https://twistedmatrix.com/trac/): Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license. 
 
+### [asyncore](https://docs.python.org/3/library/asyncore.html)
+- [trio](https://trio.readthedocs.io/en/stable/): The Trio project’s goal is to produce a production-quality, permissively licensed, async/await-native I/O library for Python. 
+- [twisted](https://twistedmatrix.com/trac/): Twisted is an event-driven networking engine written in Python and licensed under the open source ​MIT license. 
+
 ### [cProfile](https://docs.python.org/3/library/cProfile.html)
 - [plop](https://github.com/bdarnell/plop): Plop is a stack-sampling profiler for Python. Profile collection can be turned on and off in a live process with minimal performance impact. 
 - [pyperf](https://pyperf.readthedocs.io/en/latest/): The Python pyperf module is a toolkit to write, run and analyze benchmarks. 
