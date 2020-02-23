@@ -151,6 +151,9 @@ A collection of third-party alternatives to Python 3 standard library modules.
 ### [tkinter](https://docs.python.org/3/library/tkinter.html)
 - [pyqt5](https://pypi.org/project/PyQt5/): Qt is set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems 
 
+### [tokenize](https://docs.python.org/3/library/tokenize.html)
+- [parso](https://parso.readthedocs.io/en/latest/): Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions). Parso is also able to list multiple syntax errors in your python file. 
+
 ### [unittest](https://docs.python.org/3/library/unittest.html)
 - [pytest](https://pytest.org/en/latest/): The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries. 
 

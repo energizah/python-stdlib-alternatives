@@ -271,7 +271,7 @@ tkinter.scrolledtext
 tkinter.tix
 tkinter.ttk
 token
-tokenize
+tokenize parso
 trace
 traceback
 tracemalloc
